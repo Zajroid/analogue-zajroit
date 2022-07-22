@@ -674,15 +674,17 @@
                 display: flex;
 
                 ul {
+        
                     li {
                         list-style-type: none;
+                        
 
                         a {
                             text-decoration: none;
                             font-family: "Inter";
                             font-style: normal;
                             font-weight: 400;
-                            font-size: 14px;
+                            font-size: 18px;
                             line-height: 22px;
 
                             /* identical to box height, or 160% */
@@ -690,6 +692,15 @@
 
                             color: #ffffff;
                         }
+                    }
+
+                    .footer-bottom-li {
+                        padding-top: 140px;
+                    }
+
+                    li + li {
+                        padding-top: 10px;
+                        padding-right: 50px;
                     }
                 }
             }
