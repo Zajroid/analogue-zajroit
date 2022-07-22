@@ -513,7 +513,7 @@
         .recent-clients-block-down {
             padding-right: 50px;
             padding-left: 50px;
-            
+
             display: flex;
             justify-content: space-between;
 
@@ -534,3 +534,73 @@
         }
     }
 }
+
+/* READY TO START SECTION */
+.ready-to-start {
+    min-height: 150px;
+    background-color: #e0f391;
+    
+    .ready-to-start-row { 
+        margin: 0 auto;   
+        max-width: 1000px;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 80px;
+        
+        position: relative;
+
+        &::before {
+            // margin-left: 30px;
+            position: absolute;
+            content: "";
+            margin: 0 auto;
+            top: 40%;
+            left: 0;
+            display: block;
+            height: 1px;
+            width: 100%;
+            background-color: #000;
+        }
+
+        .ready-to-start-title {
+            font-family: "Libre Baskerville";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 28px;
+            line-height: 42px;
+
+            /* identical to box height, or 150% */
+            letter-spacing: 0.2px;
+
+            color: #1f1f1f;
+        }
+
+        .ready-to-start-btn {
+            display: flex;
+            align-items: center;
+
+            padding: 15px 20px;
+            max-height: 45px;
+            border-radius: 3spx;
+
+            background-color: #1f1f1f;
+
+            text-decoration: none;
+
+            font-family: "Inter";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 17px;
+            line-height: 27px;
+
+            /* identical to box height, or 159% */
+            text-align: center;
+            letter-spacing: 0.2px;
+
+            color: #ffffff;
+        }
+    }
+}
+
+
+/* FOOTER */
