@@ -1,0 +1,361 @@
+@media only screen and (max-width: 1920px) {
+    .container {
+        max-width: 1920px;
+    }
+
+    .navbar {
+        // background-color: #222;
+        max-width: 1920px;
+
+        .navbar-row {
+            min-height: 100px;
+            max-height: 100px;
+            margin: 0px 60px;
+
+            .navbar-item {
+                ul {
+                    li {
+                        a {
+                            font-size: 22px;
+                        }
+                    }
+
+                    li + li {
+                        padding-left: 36px;
+                    }
+                }
+            }
+        }
+    }
+
+    .hero {
+        max-width: 1920px;
+
+        max-height: 1000px;
+        min-height: 1000px;
+        // background-color: #111;
+
+        margin-bottom: 80px;
+
+        .hero-text {
+            .hero-title {
+                padding-top: 60px;
+                padding-left: 47px;
+                margin-bottom: 45px;
+
+                max-width: 1135;
+
+                font: normal 700 88px/100px "Inter";
+            }
+
+            .hero-desc {
+                padding-right: 100px;
+                .hero-desc-text {
+                    // padding-right: 100px;
+                    min-width: 450px;
+                    // max-width: 350px;
+                    min-height: 280px;
+                    // max-height: 180px;
+                    font: normal 400 24px/32px "Inter";
+                }
+            }
+        }
+    }
+
+    .recent-work {
+        max-width: 1920px;
+
+        // min-height: 3000px;
+        // max-height: 3200px;
+        width: 100%;
+        margin-bottom: 600px;
+        padding: 300px 400px;
+        position: relative;
+
+        .recent-work-title {
+            // top: -100%;
+            bottom: 87%;
+            left: 12%;
+            position: absolute;
+            display: flex;
+
+            padding-top: 45px;
+            padding-bottom: 450px;
+
+            margin-right: 150px;
+            font-size: 68px;
+            line-height: 89px;
+
+            text-align: left;
+            letter-spacing: 0.2px;
+        }
+        .recent-work-blocks-row {
+            transform: scale(1.3);
+        }
+    }
+
+    /* STAT */
+    .section-stat {
+        margin-bottom: 120px;
+
+        min-height: 850px;
+
+        .section-stat-row {
+            padding: 180px 200px;
+
+            .section-stat-left-column {
+                .section-stat-title {
+                    max-width: 500px;
+                    font-size: 54px;
+                    font-weight: 600;
+                    line-height: 60px;
+                }
+            }
+
+            .section-stat-right-column {
+                .section-stat-right-column-title {
+                    padding-right: 80px;
+                    text-align: left;
+                    max-width: 630px;
+                    font-weight: 400;
+                    font-size: 24px;
+                    line-height: 32px;
+                    letter-spacing: 0.3px;
+
+                    color: #1f1f1f;
+
+                    &::before {
+                        height: 2px;
+                    }
+                }
+
+                .section-stat-right-column-characteristic {
+                    max-width: 600px;
+
+                    .section-stat-right-column-characteristic-block {
+                        padding-top: 60px;
+                        min-height: 120px;
+                        min-width: 120px;
+
+                        .section-stat-right-column-characteristic-title {
+                            font-size: 80px;
+                            letter-spacing: 0.3px;
+                            line-height: 80px;
+                        }
+
+                        .section-stat-right-column-characteristic-desc {
+                            font-size: 22px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    /*  EXPERIENCE */
+    .section-experience {
+        min-height: 800px;
+        max-height: 800px;
+
+        .experience-text {
+            padding: 15px 0px 0px 70px;
+            max-width: 1000px;
+            min-width: 1000px;
+            min-height: 600px;
+
+            &::before {
+                margin-left: 70px;
+                height: 2px;
+            }
+
+            .experience-text-title {
+                font-size: 28px;
+                line-height: 36px;
+                letter-spacing: 0.4px;
+            }
+        }
+
+        .experience-text-desc {
+            padding-top: 80px;
+
+            .experience-text-desc-block {
+                min-width: 500px;
+
+                .experience-text-desc-block-title {
+                    font-size: 26px;
+                    font-weight: 500;
+                }
+
+                .experience-text-desc-block-text {
+                    font-size: 22px;
+                    line-height: 30px;
+                }
+            }
+
+            .experience-text-desc-block + .experience-text-desc-block {
+                padding-left: 60px;
+            }
+        }
+
+        .experience-right-column {
+            margin-right: 90px;
+            .experience-right-column-title {
+                font-size: 56px;
+            }
+
+            .experience-right-column-desc {
+                font-size: 32px;
+            }
+        }
+    }
+
+    /* RECENT CLIENTS */
+    .recent-clients {
+        min-height: 700px;
+        .recent-clients-title {
+            padding-top: 70px;
+            padding-bottom: 150px;
+        }
+
+        .recent-clients-block {
+            max-width: 1600px;
+
+            .recent-clients-block-top {
+                padding-right: 150px;
+                padding-left: 150px;
+                margin-bottom: 80px;
+
+                img {
+                    transform: scale(1.2);
+                }
+
+                &::before {
+                    height: 2px;
+                    top: -105%;
+                }
+            }
+
+            .recent-clients-block-down {
+                padding-right: 150px;
+                padding-left: 150px;
+
+                img {
+                    transform: scale(1.2);
+                }
+
+                &::before {
+                    height: 2px;
+                    bottom: -105%;
+                }
+            }
+        }
+    }
+    /* READY TO START SECTION */
+    .ready-to-start {
+        min-height: 200px;
+
+        .ready-to-start-row {
+            max-width: 1600px;
+            padding-top: 100px;
+        }
+    }
+
+    /* FOOTER */
+    .footer {
+        min-height: 570px;
+        max-height: 570px;
+
+        padding: 100px 90px;
+
+        .footer-left-column {
+            max-width: 550px;
+            min-width: 550px;
+
+            &::before {
+                height: 2px;
+                bottom: 20%;
+            }
+
+            .footer-left-colum-title {
+                margin-bottom: 80px;
+            }
+
+            .footer-left-column-desc {
+                font-size: 24px;
+            }
+
+            .footer-left-column-copyright {
+                margin-top: 200px;
+                font-size: 20px;
+            }
+
+  
+
+        }
+
+        .footer-right-column {
+            .footer-nav-wrapper {
+
+                .footer-nav {
+                    ul {
+                        li {
+                            a {
+                                font-size: 22px;
+                            }
+                        }
+
+                        li + li {
+                            padding-top: 15px;
+                            padding-right: 90px;
+                        }
+
+                        .footer-bottom-li {
+                            padding-top: 145px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+} // media 1920px
+
+@media only screen and (max-width: 1680px) {
+}
+
+@media only screen and (max-width: 1280px) {
+}
+
+@media only screen and (max-width: 1024px) {
+}
+
+@media only screen and (max-width: 800px) {
+}
+
+@media only screen and (max-width: 768px) {
+}
+
+@media only screen and (max-width: 600px) {
+}
+
+@media only screen and (max-width: 533px) {
+}
+
+@media only screen and (max-width: 360px) {
+}
+
+@media only screen and (max-width: 320px) {
+}
+
+@media only screen and (max-width: 240px) {
+}
+
+@media only screen and (max-width: 176px) {
+}
+
+@media all and (orientation: landscape) {
+    /* CSS правила для устройства в альбомном режиме */
+}
+
+@media all and (orientation: portrait) {
+    /* CSS правила для устройства в портретном режиме */
+}
